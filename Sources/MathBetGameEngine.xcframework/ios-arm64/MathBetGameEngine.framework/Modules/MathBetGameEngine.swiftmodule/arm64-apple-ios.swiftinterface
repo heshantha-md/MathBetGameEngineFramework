@@ -1,0 +1,124 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios17.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MathBetGameEngine
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import MathBetGameEngine
+import Observation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct Quest {
+  public let id: Swift.String
+  public let numerator: Swift.Int
+  public let denominator: Swift.Int
+  public let operatorInput: MathBetGameEngine.Operators
+}
+#if compiler(>=5.3) && $Actors
+@_hasMissingDesignatedInitializers @globalActor public actor GameEngine {
+  public static let shared: MathBetGameEngine.GameEngine
+  #if compiler(>=5.3) && $AsyncAwait
+  public func play(game: MathBetGameEngine.Game) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func verify(game: MathBetGameEngine.Game, answer: MathBetGameEngine.Answer) async throws -> MathBetGameEngine.Game
+  #endif
+  public typealias ActorType = MathBetGameEngine.GameEngine
+  @objc deinit
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  @_semantics("defaultActor") nonisolated final public var unownedExecutor: _Concurrency.UnownedSerialExecutor {
+    get
+  }
+}
+#endif
+public enum Operators : Swift.String {
+  case ADDITION
+  case SUBTRACTION
+  case MULTIPLICATION
+  case DIVISION
+  case REMAINDER
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum BetAmount : Swift.Int {
+  case TEN
+  case TWENTY
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum GameState {
+  case playing
+  case lost
+  case won
+  public static func == (a: MathBetGameEngine.GameState, b: MathBetGameEngine.GameState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_Concurrency.MainActor final public class Game : Swift.Sendable {
+  @_Concurrency.MainActor final public var id: Swift.String? {
+    get
+  }
+  @_Concurrency.MainActor final public var timestamp: Foundation.Date? {
+    get
+  }
+  @_Concurrency.MainActor final public var bet: MathBetGameEngine.BetAmount? {
+    get
+  }
+  @_Concurrency.MainActor final public var quest: MathBetGameEngine.Quest? {
+    get
+  }
+  @_Concurrency.MainActor final public var level: Swift.Int {
+    get
+  }
+  @_Concurrency.MainActor final public var state: MathBetGameEngine.GameState? {
+    get
+  }
+  @_Concurrency.MainActor final public var answers: [MathBetGameEngine.Answer] {
+    get
+  }
+  @_Concurrency.MainActor final public var clock: Swift.Int {
+    get
+  }
+  @_Concurrency.MainActor final public var booty: MathBetGameEngine.Booty? {
+    get
+  }
+  @_Concurrency.MainActor final public var numberOfWinsNeededToReachTheNextLevel: Swift.Int {
+    get
+  }
+  @_Concurrency.MainActor public init(level: Swift.Int, bet: MathBetGameEngine.BetAmount) throws
+  #if compiler(>=5.3) && $AsyncAwait
+  @_Concurrency.MainActor final public func reset() async
+  #endif
+  @objc deinit
+}
+extension MathBetGameEngine.Game : Observation.Observable {
+}
+public struct Answer : Swift.Identifiable {
+  public let id: Swift.String
+  public let value: Swift.Int
+  public typealias ID = Swift.String
+}
+public struct Booty {
+  public let answer: MathBetGameEngine.Answer
+  public let price: Swift.Int
+}
+#if compiler(>=5.3) && $Actors
+extension MathBetGameEngine.GameEngine : _Concurrency.GlobalActor {}
+#endif
+extension MathBetGameEngine.Operators : Swift.Equatable {}
+extension MathBetGameEngine.Operators : Swift.Hashable {}
+extension MathBetGameEngine.Operators : Swift.RawRepresentable {}
+extension MathBetGameEngine.BetAmount : Swift.Equatable {}
+extension MathBetGameEngine.BetAmount : Swift.Hashable {}
+extension MathBetGameEngine.BetAmount : Swift.RawRepresentable {}
+extension MathBetGameEngine.GameState : Swift.Equatable {}
+extension MathBetGameEngine.GameState : Swift.Hashable {}

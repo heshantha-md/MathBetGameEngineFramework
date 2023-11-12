@@ -1,0 +1,11 @@
+framework module MathBetGameEngine {
+  umbrella header "MathBetGameEngine.h"
+  export *
+
+  module * { export * }
+}
+
+module MathBetGameEngine.Swift {
+  header "MathBetGameEngine-Swift.h"
+  requires objc
+}
