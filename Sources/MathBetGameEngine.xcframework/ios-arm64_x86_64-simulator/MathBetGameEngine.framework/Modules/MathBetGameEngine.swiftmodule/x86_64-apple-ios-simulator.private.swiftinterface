@@ -9,11 +9,11 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public struct Quest {
-  public let id: Swift.String
-  public let numerator: Swift.Int
-  public let denominator: Swift.Int
-  public let operatorInput: MathBetGameEngine.Operators
+@_Concurrency.MainActor public struct Quest {
+  @_Concurrency.MainActor public let id: Swift.String
+  @_Concurrency.MainActor public let numerator: Swift.Int
+  @_Concurrency.MainActor public let denominator: Swift.Int
+  @_Concurrency.MainActor public let operatorInput: MathBetGameEngine.Operators
 }
 #if compiler(>=5.3) && $Actors
 @_hasMissingDesignatedInitializers @globalActor public actor GameEngine {
@@ -32,7 +32,7 @@ public struct Quest {
   }
 }
 #endif
-public enum Operators : Swift.String {
+public enum Operators : Swift.String, Swift.Codable {
   case ADDITION
   case SUBTRACTION
   case MULTIPLICATION
@@ -44,7 +44,7 @@ public enum Operators : Swift.String {
     get
   }
 }
-public enum BetAmount : Swift.Int {
+public enum BetAmount : Swift.Int, Swift.Codable {
   case TEN
   case TWENTY
   public init?(rawValue: Swift.Int)
@@ -95,22 +95,21 @@ public enum GameState {
     get
   }
   @_Concurrency.MainActor public init(level: Swift.Int, bet: MathBetGameEngine.BetAmount) throws
-  #if compiler(>=5.3) && $AsyncAwait
-  @_Concurrency.MainActor final public func reset() async
-  #endif
+  @_Concurrency.MainActor final public func reset()
   @objc deinit
 }
 extension MathBetGameEngine.Game : Observation.Observable {
 }
-public struct Answer : Swift.Identifiable {
-  public let id: Swift.String
-  public let value: Swift.Int
+@_Concurrency.MainActor public struct Answer : Swift.Identifiable {
+  @_Concurrency.MainActor public let id: Swift.String
+  @_Concurrency.MainActor public let value: Swift.Int
   public typealias ID = Swift.String
 }
-public struct Booty {
-  public let answer: MathBetGameEngine.Answer
-  public let price: Swift.Int
+@_Concurrency.MainActor public struct Booty {
+  @_Concurrency.MainActor public let answer: MathBetGameEngine.Answer
+  @_Concurrency.MainActor public let price: Swift.Int
 }
+extension MathBetGameEngine.Quest : Swift.Sendable {}
 #if compiler(>=5.3) && $Actors
 extension MathBetGameEngine.GameEngine : _Concurrency.GlobalActor {}
 #endif
@@ -122,3 +121,5 @@ extension MathBetGameEngine.BetAmount : Swift.Hashable {}
 extension MathBetGameEngine.BetAmount : Swift.RawRepresentable {}
 extension MathBetGameEngine.GameState : Swift.Equatable {}
 extension MathBetGameEngine.GameState : Swift.Hashable {}
+extension MathBetGameEngine.Answer : Swift.Sendable {}
+extension MathBetGameEngine.Booty : Swift.Sendable {}

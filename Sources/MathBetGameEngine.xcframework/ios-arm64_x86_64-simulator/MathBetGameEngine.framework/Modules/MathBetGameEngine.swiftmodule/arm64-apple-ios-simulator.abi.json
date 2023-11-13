@@ -36,6 +36,7 @@
             "mangledName": "$s17MathBetGameEngine5QuestV2idSSvp",
             "moduleName": "MathBetGameEngine",
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
               "HasStorage",
               "AccessControl"
@@ -81,6 +82,7 @@
             "mangledName": "$s17MathBetGameEngine5QuestV9numeratorSivp",
             "moduleName": "MathBetGameEngine",
             "declAttributes": [
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -125,6 +127,7 @@
             "mangledName": "$s17MathBetGameEngine5QuestV11denominatorSivp",
             "moduleName": "MathBetGameEngine",
             "declAttributes": [
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -169,6 +172,7 @@
             "mangledName": "$s17MathBetGameEngine5QuestV13operatorInputAA9OperatorsOvp",
             "moduleName": "MathBetGameEngine",
             "declAttributes": [
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -202,7 +206,17 @@
         "mangledName": "$s17MathBetGameEngine5QuestV",
         "moduleName": "MathBetGameEngine",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "Custom"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
         ]
       },
       {
@@ -788,6 +802,20 @@
             ],
             "usr": "s:SY",
             "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           }
         ]
       },
@@ -987,6 +1015,20 @@
             ],
             "usr": "s:SY",
             "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           }
         ]
       },
@@ -1873,8 +1915,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17MathBetGameEngine0C0C5resetyyYaF",
-            "mangledName": "$s17MathBetGameEngine0C0C5resetyyYaF",
+            "usr": "s:17MathBetGameEngine0C0C5resetyyF",
+            "mangledName": "$s17MathBetGameEngine0C0C5resetyyF",
             "moduleName": "MathBetGameEngine",
             "declAttributes": [
               "Custom",
@@ -1943,6 +1985,7 @@
             "mangledName": "$s17MathBetGameEngine6AnswerV2idSSvp",
             "moduleName": "MathBetGameEngine",
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
               "HasStorage",
               "AccessControl"
@@ -1989,6 +2032,7 @@
             "moduleName": "MathBetGameEngine",
             "declAttributes": [
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "isLet": true,
@@ -2021,7 +2065,8 @@
         "mangledName": "$s17MathBetGameEngine6AnswerV",
         "moduleName": "MathBetGameEngine",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "Custom"
         ],
         "conformances": [
           {
@@ -2045,6 +2090,13 @@
             ],
             "usr": "s:s12IdentifiableP",
             "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -2080,6 +2132,7 @@
             "mangledName": "$s17MathBetGameEngine5BootyV6answerAA6AnswerVvp",
             "moduleName": "MathBetGameEngine",
             "declAttributes": [
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -2124,6 +2177,7 @@
             "mangledName": "$s17MathBetGameEngine5BootyV5priceSivp",
             "moduleName": "MathBetGameEngine",
             "declAttributes": [
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -2157,7 +2211,17 @@
         "mangledName": "$s17MathBetGameEngine5BootyV",
         "moduleName": "MathBetGameEngine",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "Custom"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
         ]
       }
     ],
@@ -2167,168 +2231,168 @@
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Models\/Quest.swift",
       "kind": "IntegerLiteral",
-      "offset": 335,
+      "offset": 346,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Models\/Quest.swift",
       "kind": "IntegerLiteral",
-      "offset": 357,
+      "offset": 368,
       "length": 2,
       "value": "99"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/GameEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 517,
+      "offset": 554,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/GameEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 646,
+      "offset": 677,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/GameEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 781,
+      "offset": 812,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/GameEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 1069,
+      "offset": 1100,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/GameEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 1181,
+      "offset": 1212,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/GameEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 1877,
+      "offset": 1908,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/GameEngine.swift",
       "kind": "Array",
-      "offset": 1911,
+      "offset": 1942,
       "length": 10,
       "value": "[10, 20, 30]"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/GameEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 1941,
+      "offset": 1972,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/GameEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 2153,
+      "offset": 2184,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/GameEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 2172,
+      "offset": 2203,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/GameEngine.swift",
       "kind": "Array",
-      "offset": 2406,
+      "offset": 2437,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/GameEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 2445,
+      "offset": 2476,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/GameEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 2693,
+      "offset": 2741,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/GameEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 2798,
+      "offset": 2846,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/GameEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 3324,
+      "offset": 3389,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/GameEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 3435,
+      "offset": 3500,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/GameEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 3979,
+      "offset": 4061,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/GameEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 4090,
+      "offset": 4172,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/GameEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 5217,
+      "offset": 5328,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/GameEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 5464,
+      "offset": 5575,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/GameEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 5469,
+      "offset": 5580,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/GameEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 5473,
+      "offset": 5584,
       "length": 1,
       "value": "0"
     },
@@ -2419,133 +2483,133 @@
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 163,
+      "offset": 172,
       "length": 3,
       "value": "\"+\""
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 190,
+      "offset": 199,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 220,
+      "offset": 229,
       "length": 3,
       "value": "\"*\""
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 244,
+      "offset": 253,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 269,
+      "offset": 278,
       "length": 3,
       "value": "\"%\""
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 391,
+      "offset": 400,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 455,
+      "offset": 464,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 530,
+      "offset": 539,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 163,
+      "offset": 172,
       "length": 3,
       "value": "\"+\""
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 190,
+      "offset": 199,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 220,
+      "offset": 229,
       "length": 3,
       "value": "\"*\""
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 244,
+      "offset": 253,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 269,
+      "offset": 278,
       "length": 3,
       "value": "\"%\""
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 690,
+      "offset": 708,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 711,
+      "offset": 729,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 690,
+      "offset": 708,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 711,
+      "offset": 729,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 690,
+      "offset": 708,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 711,
+      "offset": 729,
       "length": 2,
       "value": "20"
     },
@@ -2692,21 +2756,21 @@
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Models\/Game.swift",
       "kind": "IntegerLiteral",
-      "offset": 1914,
+      "offset": 1664,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Models\/Game.swift",
       "kind": "IntegerLiteral",
-      "offset": 2407,
+      "offset": 2097,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Models\/Game.swift",
       "kind": "Array",
-      "offset": 2436,
+      "offset": 2122,
       "length": 2,
       "value": "[]"
     }
