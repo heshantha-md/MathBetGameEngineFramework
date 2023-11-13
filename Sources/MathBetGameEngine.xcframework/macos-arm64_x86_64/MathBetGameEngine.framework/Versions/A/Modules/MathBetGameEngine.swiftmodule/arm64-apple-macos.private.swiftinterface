@@ -9,7 +9,7 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_Concurrency.MainActor public struct Quest {
+@_Concurrency.MainActor public struct QCard {
   @_Concurrency.MainActor public let id: Swift.String
   @_Concurrency.MainActor public let numerator: Swift.Int
   @_Concurrency.MainActor public let denominator: Swift.Int
@@ -73,7 +73,7 @@ public enum GameState {
   @_Concurrency.MainActor final public var bet: MathBetGameEngine.BetAmount? {
     get
   }
-  @_Concurrency.MainActor final public var quest: MathBetGameEngine.Quest? {
+  @_Concurrency.MainActor final public var quest: MathBetGameEngine.QCard? {
     get
   }
   @_Concurrency.MainActor final public var level: Swift.Int {
@@ -109,7 +109,7 @@ extension MathBetGameEngine.Game : Observation.Observable {
   @_Concurrency.MainActor public let answer: MathBetGameEngine.Answer
   @_Concurrency.MainActor public let price: Swift.Int
 }
-extension MathBetGameEngine.Quest : Swift.Sendable {}
+extension MathBetGameEngine.QCard : Swift.Sendable {}
 #if compiler(>=5.3) && $Actors
 extension MathBetGameEngine.GameEngine : _Concurrency.GlobalActor {}
 #endif

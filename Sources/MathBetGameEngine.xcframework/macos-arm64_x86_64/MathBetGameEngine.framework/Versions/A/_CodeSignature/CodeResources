@@ -29,14 +29,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lNP08rDRBPCPoTrkyPDWtKIkIZaq6Op2lsoo6nJ9DYw=
+			FA4DJVoG2FstKZHjVFOk/lFcJnh4ZDujKG3s2n4V/Hs=
 			</data>
 		</dict>
 		<key>Modules/MathBetGameEngine.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3ZqPY1aiTT0xKd9iWOFaJbHHBtQifui6YxOzaxgpmWo=
+			gcHfDmzhRw9SCr1SS0Y8wVcOmrnmXsVEnB32vDMeCsc=
 			</data>
 		</dict>
 		<key>Modules/MathBetGameEngine.swiftmodule/arm64-apple-macos.swiftdoc</key>
@@ -50,28 +50,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3ZqPY1aiTT0xKd9iWOFaJbHHBtQifui6YxOzaxgpmWo=
+			gcHfDmzhRw9SCr1SS0Y8wVcOmrnmXsVEnB32vDMeCsc=
 			</data>
 		</dict>
 		<key>Modules/MathBetGameEngine.swiftmodule/arm64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xcpLjVz2mbJT8Qo9wKjnBHiaqro3ayYxe3oP2POQ+vg=
+			inkmXRunwRgXGSlKp058Frnp5Ks027rGy5QVQqpY2oY=
 			</data>
 		</dict>
 		<key>Modules/MathBetGameEngine.swiftmodule/x86_64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lNP08rDRBPCPoTrkyPDWtKIkIZaq6Op2lsoo6nJ9DYw=
+			FA4DJVoG2FstKZHjVFOk/lFcJnh4ZDujKG3s2n4V/Hs=
 			</data>
 		</dict>
 		<key>Modules/MathBetGameEngine.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iN6kmKB58OKMQP9CVWZ9IloE2Rf9dmuPxRzxpFxfgFU=
+			DCUTW4V9dQqsgveuNEBQ2MMg+NoYA56zAa+EZv9dj9s=
 			</data>
 		</dict>
 		<key>Modules/MathBetGameEngine.swiftmodule/x86_64-apple-macos.swiftdoc</key>
@@ -85,14 +85,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iN6kmKB58OKMQP9CVWZ9IloE2Rf9dmuPxRzxpFxfgFU=
+			DCUTW4V9dQqsgveuNEBQ2MMg+NoYA56zAa+EZv9dj9s=
 			</data>
 		</dict>
 		<key>Modules/MathBetGameEngine.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WcLDf+GZesjSPio/vc4RfcbpfSSzMvUj1IUCuyZqG/w=
+			RiW17xC6AjhlM3LAVw0jKqWsUHLW+V4LQKyc0tTjqn8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

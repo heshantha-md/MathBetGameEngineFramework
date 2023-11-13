@@ -16,8 +16,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "Quest",
-        "printedName": "Quest",
+        "name": "QCard",
+        "printedName": "QCard",
         "children": [
           {
             "kind": "Var",
@@ -32,8 +32,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:17MathBetGameEngine5QuestV2idSSvp",
-            "mangledName": "$s17MathBetGameEngine5QuestV2idSSvp",
+            "usr": "s:17MathBetGameEngine5QCardV2idSSvp",
+            "mangledName": "$s17MathBetGameEngine5QCardV2idSSvp",
             "moduleName": "MathBetGameEngine",
             "declAttributes": [
               "Custom",
@@ -57,8 +57,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17MathBetGameEngine5QuestV2idSSvg",
-                "mangledName": "$s17MathBetGameEngine5QuestV2idSSvg",
+                "usr": "s:17MathBetGameEngine5QCardV2idSSvg",
+                "mangledName": "$s17MathBetGameEngine5QCardV2idSSvg",
                 "moduleName": "MathBetGameEngine",
                 "implicit": true,
                 "accessorKind": "get"
@@ -78,8 +78,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:17MathBetGameEngine5QuestV9numeratorSivp",
-            "mangledName": "$s17MathBetGameEngine5QuestV9numeratorSivp",
+            "usr": "s:17MathBetGameEngine5QCardV9numeratorSivp",
+            "mangledName": "$s17MathBetGameEngine5QCardV9numeratorSivp",
             "moduleName": "MathBetGameEngine",
             "declAttributes": [
               "Custom",
@@ -102,8 +102,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17MathBetGameEngine5QuestV9numeratorSivg",
-                "mangledName": "$s17MathBetGameEngine5QuestV9numeratorSivg",
+                "usr": "s:17MathBetGameEngine5QCardV9numeratorSivg",
+                "mangledName": "$s17MathBetGameEngine5QCardV9numeratorSivg",
                 "moduleName": "MathBetGameEngine",
                 "implicit": true,
                 "accessorKind": "get"
@@ -123,8 +123,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:17MathBetGameEngine5QuestV11denominatorSivp",
-            "mangledName": "$s17MathBetGameEngine5QuestV11denominatorSivp",
+            "usr": "s:17MathBetGameEngine5QCardV11denominatorSivp",
+            "mangledName": "$s17MathBetGameEngine5QCardV11denominatorSivp",
             "moduleName": "MathBetGameEngine",
             "declAttributes": [
               "Custom",
@@ -147,8 +147,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17MathBetGameEngine5QuestV11denominatorSivg",
-                "mangledName": "$s17MathBetGameEngine5QuestV11denominatorSivg",
+                "usr": "s:17MathBetGameEngine5QCardV11denominatorSivg",
+                "mangledName": "$s17MathBetGameEngine5QCardV11denominatorSivg",
                 "moduleName": "MathBetGameEngine",
                 "implicit": true,
                 "accessorKind": "get"
@@ -168,8 +168,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:17MathBetGameEngine5QuestV13operatorInputAA9OperatorsOvp",
-            "mangledName": "$s17MathBetGameEngine5QuestV13operatorInputAA9OperatorsOvp",
+            "usr": "s:17MathBetGameEngine5QCardV13operatorInputAA9OperatorsOvp",
+            "mangledName": "$s17MathBetGameEngine5QCardV13operatorInputAA9OperatorsOvp",
             "moduleName": "MathBetGameEngine",
             "declAttributes": [
               "Custom",
@@ -192,8 +192,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17MathBetGameEngine5QuestV13operatorInputAA9OperatorsOvg",
-                "mangledName": "$s17MathBetGameEngine5QuestV13operatorInputAA9OperatorsOvg",
+                "usr": "s:17MathBetGameEngine5QCardV13operatorInputAA9OperatorsOvg",
+                "mangledName": "$s17MathBetGameEngine5QCardV13operatorInputAA9OperatorsOvg",
                 "moduleName": "MathBetGameEngine",
                 "implicit": true,
                 "accessorKind": "get"
@@ -202,8 +202,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:17MathBetGameEngine5QuestV",
-        "mangledName": "$s17MathBetGameEngine5QuestV",
+        "usr": "s:17MathBetGameEngine5QCardV",
+        "mangledName": "$s17MathBetGameEngine5QCardV",
         "moduleName": "MathBetGameEngine",
         "declAttributes": [
           "AccessControl",
@@ -1481,21 +1481,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "MathBetGameEngine.Quest?",
+                "printedName": "MathBetGameEngine.QCard?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Quest",
-                    "printedName": "MathBetGameEngine.Quest",
-                    "usr": "s:17MathBetGameEngine5QuestV"
+                    "name": "QCard",
+                    "printedName": "MathBetGameEngine.QCard",
+                    "usr": "s:17MathBetGameEngine5QCardV"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:17MathBetGameEngine0C0C5questAA5QuestVSgvp",
-            "mangledName": "$s17MathBetGameEngine0C0C5questAA5QuestVSgvp",
+            "usr": "s:17MathBetGameEngine0C0C5questAA5QCardVSgvp",
+            "mangledName": "$s17MathBetGameEngine0C0C5questAA5QCardVSgvp",
             "moduleName": "MathBetGameEngine",
             "declAttributes": [
               "Final",
@@ -1513,21 +1513,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "MathBetGameEngine.Quest?",
+                    "printedName": "MathBetGameEngine.QCard?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Quest",
-                        "printedName": "MathBetGameEngine.Quest",
-                        "usr": "s:17MathBetGameEngine5QuestV"
+                        "name": "QCard",
+                        "printedName": "MathBetGameEngine.QCard",
+                        "usr": "s:17MathBetGameEngine5QCardV"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17MathBetGameEngine0C0C5questAA5QuestVSgvg",
-                "mangledName": "$s17MathBetGameEngine0C0C5questAA5QuestVSgvg",
+                "usr": "s:17MathBetGameEngine0C0C5questAA5QCardVSgvg",
+                "mangledName": "$s17MathBetGameEngine0C0C5questAA5QCardVSgvg",
                 "moduleName": "MathBetGameEngine",
                 "declAttributes": [
                   "Final"
@@ -2229,14 +2229,14 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Models\/Quest.swift",
+      "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Models\/QCard.swift",
       "kind": "IntegerLiteral",
       "offset": 346,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Models\/Quest.swift",
+      "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Models\/QCard.swift",
       "kind": "IntegerLiteral",
       "offset": 368,
       "length": 2,
