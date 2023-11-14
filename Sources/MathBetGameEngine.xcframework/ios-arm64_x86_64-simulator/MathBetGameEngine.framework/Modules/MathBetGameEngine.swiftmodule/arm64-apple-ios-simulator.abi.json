@@ -2058,6 +2058,41 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Answer",
+                "printedName": "MathBetGameEngine.Answer",
+                "usr": "s:17MathBetGameEngine6AnswerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Answer",
+                "printedName": "MathBetGameEngine.Answer",
+                "usr": "s:17MathBetGameEngine6AnswerV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17MathBetGameEngine6AnswerV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s17MathBetGameEngine6AnswerV2eeoiySbAC_ACtFZ",
+            "moduleName": "MathBetGameEngine",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -2090,6 +2125,13 @@
             ],
             "usr": "s:s12IdentifiableP",
             "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",

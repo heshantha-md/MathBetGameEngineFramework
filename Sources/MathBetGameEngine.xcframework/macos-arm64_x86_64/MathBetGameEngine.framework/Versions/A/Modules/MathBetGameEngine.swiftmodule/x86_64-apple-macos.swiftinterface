@@ -100,9 +100,10 @@ public enum GameState {
 }
 extension MathBetGameEngine.Game : Observation.Observable {
 }
-@_Concurrency.MainActor public struct Answer : Swift.Identifiable {
+@_Concurrency.MainActor public struct Answer : Swift.Identifiable, Swift.Equatable {
   @_Concurrency.MainActor public let id: Swift.String
   @_Concurrency.MainActor public let value: Swift.Int
+  nonisolated public static func == (a: MathBetGameEngine.Answer, b: MathBetGameEngine.Answer) -> Swift.Bool
   public typealias ID = Swift.String
 }
 @_Concurrency.MainActor public struct Booty {
