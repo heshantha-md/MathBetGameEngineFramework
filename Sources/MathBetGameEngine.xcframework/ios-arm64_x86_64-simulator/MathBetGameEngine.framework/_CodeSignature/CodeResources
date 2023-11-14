@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/MathBetGameEngine.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		2A787EJ+vWk/KL9zBDHFRO+FH3Q=
+		ZgWmuKthXUty9hi+wSRr+RUWJoU=
 		</data>
 		<key>Modules/MathBetGameEngine.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		lYuYvxX0qXeSR+6DRsKi9xmLkus=
+		nFCm5GDMO1XoFUFKBodJspvrxo0=
 		</data>
 		<key>Modules/MathBetGameEngine.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/MathBetGameEngine.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		lYuYvxX0qXeSR+6DRsKi9xmLkus=
+		nFCm5GDMO1XoFUFKBodJspvrxo0=
 		</data>
 		<key>Modules/MathBetGameEngine.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2Z87fd7EkaVfCuZZ9f+5fp2xtgo=
+		WkzSWE4IGY6g2u/XpyJN0cV1gZA=
 		</data>
 		<key>Modules/MathBetGameEngine.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		2A787EJ+vWk/KL9zBDHFRO+FH3Q=
+		ZgWmuKthXUty9hi+wSRr+RUWJoU=
 		</data>
 		<key>Modules/MathBetGameEngine.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		SH0j8Wyx2bLtYVE+hJBuSKadHVQ=
+		VV3uff1ewVCJHj3fJ/FvM52IO5U=
 		</data>
 		<key>Modules/MathBetGameEngine.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/MathBetGameEngine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		SH0j8Wyx2bLtYVE+hJBuSKadHVQ=
+		VV3uff1ewVCJHj3fJ/FvM52IO5U=
 		</data>
 		<key>Modules/MathBetGameEngine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		C6rowf5NhVoEiG05uK6jEG3WdCw=
+		wJMU6ACv1ERjlU8lzBpT40ClcRA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2SNDD6Bybl5BqLWE/Pb+l+0BhGOniowURO9h6gQB2xE=
+			YijxGL4qgw3xCNF1lzsKPnYOfdcAoKuKozGB0B8G9z4=
 			</data>
 		</dict>
 		<key>Modules/MathBetGameEngine.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UjStygLfI7CldNJOST1uSFmkaqzG7GwXF+N8R+CCGJY=
+			7XeaCS4rEoTa8RpzD0ysOIOK9hS37GLJmJODY5DFz4I=
 			</data>
 		</dict>
 		<key>Modules/MathBetGameEngine.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UjStygLfI7CldNJOST1uSFmkaqzG7GwXF+N8R+CCGJY=
+			7XeaCS4rEoTa8RpzD0ysOIOK9hS37GLJmJODY5DFz4I=
 			</data>
 		</dict>
 		<key>Modules/MathBetGameEngine.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7TFaSLPxommaoRGMlvJywc2+uJY85j/dOuh6dM9KbRM=
+			pl7207pAy0d7NYLMWj0BdIFXXsZ83QvWld8k8vK00uo=
 			</data>
 		</dict>
 		<key>Modules/MathBetGameEngine.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2SNDD6Bybl5BqLWE/Pb+l+0BhGOniowURO9h6gQB2xE=
+			YijxGL4qgw3xCNF1lzsKPnYOfdcAoKuKozGB0B8G9z4=
 			</data>
 		</dict>
 		<key>Modules/MathBetGameEngine.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iGuZVOB/La3t5UwSPV54aTRMYw33aeDG/jzkPFJSb4o=
+			h4nLsmDjVvQYxfj8XNYnWZ/q4PzfT13ga4C7SHl4Qu0=
 			</data>
 		</dict>
 		<key>Modules/MathBetGameEngine.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iGuZVOB/La3t5UwSPV54aTRMYw33aeDG/jzkPFJSb4o=
+			h4nLsmDjVvQYxfj8XNYnWZ/q4PzfT13ga4C7SHl4Qu0=
 			</data>
 		</dict>
 		<key>Modules/MathBetGameEngine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YA11vnV+jZRd3vft6zge8Ove+eQAWlcqau4s2GvSTl8=
+			TpBdIJxuY/+/XAgWh79rdcMis5TGYYfi7Bmb2o0WqWY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

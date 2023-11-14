@@ -199,6 +199,41 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "QCard",
+                "printedName": "MathBetGameEngine.QCard",
+                "usr": "s:17MathBetGameEngine5QCardV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "QCard",
+                "printedName": "MathBetGameEngine.QCard",
+                "usr": "s:17MathBetGameEngine5QCardV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17MathBetGameEngine5QCardV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s17MathBetGameEngine5QCardV2eeoiySbAC_ACtFZ",
+            "moduleName": "MathBetGameEngine",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -210,6 +245,13 @@
           "Custom"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
           {
             "kind": "Conformance",
             "name": "Sendable",
@@ -769,13 +811,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -816,6 +851,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -1149,38 +1191,6 @@
             "moduleName": "MathBetGameEngine"
           },
           {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "GameState",
-                "printedName": "MathBetGameEngine.GameState",
-                "usr": "s:17MathBetGameEngine0C5StateO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "GameState",
-                "printedName": "MathBetGameEngine.GameState",
-                "usr": "s:17MathBetGameEngine0C5StateO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17MathBetGameEngine0C5StateO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s17MathBetGameEngine0C5StateO2eeoiySbAC_ACtFZ",
-            "moduleName": "MathBetGameEngine",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
             "kind": "Var",
             "name": "hashValue",
             "printedName": "hashValue",
@@ -1243,6 +1253,38 @@
             "moduleName": "MathBetGameEngine",
             "implicit": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameState",
+                "printedName": "MathBetGameEngine.GameState",
+                "usr": "s:17MathBetGameEngine0C5StateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameState",
+                "printedName": "MathBetGameEngine.GameState",
+                "usr": "s:17MathBetGameEngine0C5StateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17MathBetGameEngine0C5StateO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s17MathBetGameEngine0C5StateO2eeoiySbAC_ACtFZ",
+            "moduleName": "MathBetGameEngine",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
@@ -1255,17 +1297,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -1823,51 +1865,6 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "numberOfWinsNeededToReachTheNextLevel",
-            "printedName": "numberOfWinsNeededToReachTheNextLevel",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:17MathBetGameEngine0C0C37numberOfWinsNeededToReachTheNextLevelSivp",
-            "mangledName": "$s17MathBetGameEngine0C0C37numberOfWinsNeededToReachTheNextLevelSivp",
-            "moduleName": "MathBetGameEngine",
-            "declAttributes": [
-              "Custom",
-              "Final",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17MathBetGameEngine0C0C37numberOfWinsNeededToReachTheNextLevelSivg",
-                "mangledName": "$s17MathBetGameEngine0C0C37numberOfWinsNeededToReachTheNextLevelSivg",
-                "moduleName": "MathBetGameEngine",
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(level:bet:)",
@@ -1902,6 +1899,35 @@
             ],
             "throwing": true,
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "numberOfWinsNeedToComplete",
+            "printedName": "numberOfWinsNeedToComplete(level:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17MathBetGameEngine0C0C26numberOfWinsNeedToComplete5levelS2i_tF",
+            "mangledName": "$s17MathBetGameEngine0C0C26numberOfWinsNeedToComplete5levelS2i_tF",
+            "moduleName": "MathBetGameEngine",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -2246,6 +2272,41 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Booty",
+                "printedName": "MathBetGameEngine.Booty",
+                "usr": "s:17MathBetGameEngine5BootyV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Booty",
+                "printedName": "MathBetGameEngine.Booty",
+                "usr": "s:17MathBetGameEngine5BootyV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17MathBetGameEngine5BootyV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s17MathBetGameEngine5BootyV2eeoiySbAC_ACtFZ",
+            "moduleName": "MathBetGameEngine",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -2257,6 +2318,13 @@
           "Custom"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
           {
             "kind": "Conformance",
             "name": "Sendable",
@@ -2273,14 +2341,14 @@
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Models\/QCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 346,
+      "offset": 357,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Models\/QCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 368,
+      "offset": 379,
       "length": 2,
       "value": "99"
     },
@@ -2525,133 +2593,133 @@
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 172,
+      "offset": 183,
       "length": 3,
       "value": "\"+\""
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 199,
+      "offset": 210,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 229,
+      "offset": 240,
       "length": 3,
       "value": "\"*\""
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 253,
+      "offset": 264,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 278,
+      "offset": 289,
       "length": 3,
       "value": "\"%\""
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 400,
+      "offset": 411,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 464,
+      "offset": 475,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 539,
+      "offset": 550,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 172,
+      "offset": 183,
       "length": 3,
       "value": "\"+\""
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 199,
+      "offset": 210,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 229,
+      "offset": 240,
       "length": 3,
       "value": "\"*\""
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 253,
+      "offset": 264,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 278,
+      "offset": 289,
       "length": 3,
       "value": "\"%\""
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 708,
+      "offset": 719,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 729,
+      "offset": 740,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 708,
+      "offset": 719,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 729,
+      "offset": 740,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 708,
+      "offset": 719,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 729,
+      "offset": 740,
       "length": 2,
       "value": "20"
     },
@@ -2791,28 +2859,28 @@
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Models\/Game.swift",
       "kind": "IntegerLiteral",
-      "offset": 1170,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Models\/Game.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1664,
+      "offset": 1572,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Models\/Game.swift",
       "kind": "IntegerLiteral",
-      "offset": 2097,
+      "offset": 1920,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Models\/Game.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2106,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Models\/Game.swift",
       "kind": "Array",
-      "offset": 2122,
+      "offset": 2131,
       "length": 2,
       "value": "[]"
     }

@@ -9,11 +9,12 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_Concurrency.MainActor public struct QCard {
+@_Concurrency.MainActor public struct QCard : Swift.Equatable {
   @_Concurrency.MainActor public let id: Swift.String
   @_Concurrency.MainActor public let numerator: Swift.Int
   @_Concurrency.MainActor public let denominator: Swift.Int
   @_Concurrency.MainActor public let operatorInput: MathBetGameEngine.Operators
+  nonisolated public static func == (a: MathBetGameEngine.QCard, b: MathBetGameEngine.QCard) -> Swift.Bool
 }
 #if compiler(>=5.3) && $Actors
 @_hasMissingDesignatedInitializers @globalActor public actor GameEngine {
@@ -32,7 +33,7 @@ import _SwiftConcurrencyShims
   }
 }
 #endif
-public enum Operators : Swift.String, Swift.Codable {
+public enum Operators : Swift.String, Swift.Codable, Swift.Equatable {
   case ADDITION
   case SUBTRACTION
   case MULTIPLICATION
@@ -53,12 +54,12 @@ public enum BetAmount : Swift.Int, Swift.Codable {
     get
   }
 }
-public enum GameState {
+public enum GameState : Swift.Equatable {
   case playing
   case lost
   case won
-  public static func == (a: MathBetGameEngine.GameState, b: MathBetGameEngine.GameState) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: MathBetGameEngine.GameState, b: MathBetGameEngine.GameState) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }
@@ -91,10 +92,8 @@ public enum GameState {
   @_Concurrency.MainActor final public var booty: MathBetGameEngine.Booty? {
     get
   }
-  @_Concurrency.MainActor final public var numberOfWinsNeededToReachTheNextLevel: Swift.Int {
-    get
-  }
   @_Concurrency.MainActor public init(level: Swift.Int, bet: MathBetGameEngine.BetAmount) throws
+  @_Concurrency.MainActor final public func numberOfWinsNeedToComplete(level: Swift.Int) -> Swift.Int
   @_Concurrency.MainActor final public func reset()
   @objc deinit
 }
@@ -106,21 +105,20 @@ extension MathBetGameEngine.Game : Observation.Observable {
   nonisolated public static func == (a: MathBetGameEngine.Answer, b: MathBetGameEngine.Answer) -> Swift.Bool
   public typealias ID = Swift.String
 }
-@_Concurrency.MainActor public struct Booty {
+@_Concurrency.MainActor public struct Booty : Swift.Equatable {
   @_Concurrency.MainActor public let answer: MathBetGameEngine.Answer
   @_Concurrency.MainActor public let price: Swift.Int
+  nonisolated public static func == (a: MathBetGameEngine.Booty, b: MathBetGameEngine.Booty) -> Swift.Bool
 }
 extension MathBetGameEngine.QCard : Swift.Sendable {}
 #if compiler(>=5.3) && $Actors
 extension MathBetGameEngine.GameEngine : _Concurrency.GlobalActor {}
 #endif
-extension MathBetGameEngine.Operators : Swift.Equatable {}
 extension MathBetGameEngine.Operators : Swift.Hashable {}
 extension MathBetGameEngine.Operators : Swift.RawRepresentable {}
 extension MathBetGameEngine.BetAmount : Swift.Equatable {}
 extension MathBetGameEngine.BetAmount : Swift.Hashable {}
 extension MathBetGameEngine.BetAmount : Swift.RawRepresentable {}
-extension MathBetGameEngine.GameState : Swift.Equatable {}
 extension MathBetGameEngine.GameState : Swift.Hashable {}
 extension MathBetGameEngine.Answer : Swift.Sendable {}
 extension MathBetGameEngine.Booty : Swift.Sendable {}
