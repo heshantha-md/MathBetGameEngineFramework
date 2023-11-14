@@ -25,6 +25,7 @@ import _SwiftConcurrencyShims
   #if compiler(>=5.3) && $AsyncAwait
   public func verify(game: MathBetGameEngine.Game, answer: MathBetGameEngine.Answer) async throws -> MathBetGameEngine.Game
   #endif
+  public func numberOfWinsNeedToComplete(level: Swift.Int) -> Swift.Int
   public typealias ActorType = MathBetGameEngine.GameEngine
   @objc deinit
   @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
@@ -93,7 +94,6 @@ public enum GameState : Swift.Equatable {
     get
   }
   @_Concurrency.MainActor public init(level: Swift.Int, bet: MathBetGameEngine.BetAmount) throws
-  @_Concurrency.MainActor final public func numberOfWinsNeedToComplete(level: Swift.Int) -> Swift.Int
   @_Concurrency.MainActor final public func reset()
   @objc deinit
 }

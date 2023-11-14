@@ -397,6 +397,33 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "numberOfWinsNeedToComplete",
+            "printedName": "numberOfWinsNeedToComplete(level:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17MathBetGameEngine0cD0C26numberOfWinsNeedToComplete5levelS2i_tF",
+            "mangledName": "$s17MathBetGameEngine0cD0C26numberOfWinsNeedToComplete5levelS2i_tF",
+            "moduleName": "MathBetGameEngine",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Var",
             "name": "unownedExecutor",
             "printedName": "unownedExecutor",
@@ -1902,35 +1929,6 @@
           },
           {
             "kind": "Function",
-            "name": "numberOfWinsNeedToComplete",
-            "printedName": "numberOfWinsNeedToComplete(level:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17MathBetGameEngine0C0C26numberOfWinsNeedToComplete5levelS2i_tF",
-            "mangledName": "$s17MathBetGameEngine0C0C26numberOfWinsNeedToComplete5levelS2i_tF",
-            "moduleName": "MathBetGameEngine",
-            "declAttributes": [
-              "Custom",
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "reset",
             "printedName": "reset()",
             "children": [
@@ -2507,6 +2505,13 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/GameEngine.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5885,
+      "length": 2,
+      "value": "20"
+    },
+    {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Utilities\/EngineError.swift",
       "kind": "StringLiteral",
       "offset": 521,
@@ -2866,21 +2871,14 @@
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Models\/Game.swift",
       "kind": "IntegerLiteral",
-      "offset": 1920,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Models\/Game.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2106,
+      "offset": 2005,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/developer.heshantha.don\/Repos\/MathBetGame\/MBGameEngineFramework\/MathBetGameEngine\/MathBetGameEngine\/Models\/Game.swift",
       "kind": "Array",
-      "offset": 2131,
+      "offset": 2030,
       "length": 2,
       "value": "[]"
     }
